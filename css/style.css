@@ -1,0 +1,96 @@
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+     background-color: #E5E5E5;
+     color: var(--primery-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.logo {
+    color: #000000;
+}
+.logo > span {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.site-nav a {
+    color: var(--title-text-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* address */
+
+.address a:hover,
+.address a:focus {
+    color: var(--accent-color)
+}
+
+.address a {
+    color: var(--primery-text-color);
+}
+
+/* hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* button */
+
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* feature */
+.feature h3 {
+    color: var(--title-text-color);
+}
+
+/* team */
+
+.team h3 {
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.nav {
+    color: #FFFFFF;
+}
+
+.address-nav {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+#757575 основной цвет текста 
+#212121 вторичный цвет 
+#2196F3 синий 
+#FFFFFF белый 
+#FFFFFF 60 акцент

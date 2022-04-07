@@ -14,6 +14,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* logo */
@@ -71,13 +73,21 @@ body {
 
 /* hero */
 
+.hero {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 30px;
     color: #FFFFFF;
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -91,6 +101,13 @@ body {
 }
 
 .button {
+    border-radius: 4px;
+    border: 1px transparent;
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+
+
     color: #FFFFFF;
     background-color: var(--accent-color);
     
@@ -105,9 +122,21 @@ body {
 
 
 
-/* feature */
+/* feature */ 
+
+.section.feature {
+    margin-bottom: 94px;
+}
+
+.feature .list {
+    margin-bottom: 94px;
+}
+
 
 .feature h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
 
     font-size: 14px;
@@ -116,13 +145,29 @@ body {
 }
 
 .feature p {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-size: 14px;
     line-height: 1.71;
 }
 
 /* work */
 
-.section-title {
+.section-work {
+    margin-bottom: 94px;
+}
+
+
+.section-work h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 94px;
+
+
+}
+
+ .section-work .section-title {
     color: var(--title-text-color);
  
     font-size: 36px;
@@ -132,7 +177,24 @@ body {
 
 /* team */
 
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 94px;
+
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
 .team h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -142,6 +204,8 @@ body {
 }
 
 .team span {
+    margin-bottom: 30px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -150,8 +214,18 @@ body {
 
 /* footer */
 
+    .container .logo {
+        margin-top: 58px;
+        margin-bottom: 20px;
+    }
+
 .logo .studio { 
     color: #FFFFFF;
+}
+
+.container p.nav  {
+    margin top: 0;
+    margin bottom: 9px;
 }
 
 .nav {
@@ -210,5 +284,8 @@ body {
     line-height: 1.88;
 }
 
-
-
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;

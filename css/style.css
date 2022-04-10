@@ -134,8 +134,7 @@ body {
 
 .hero {
     padding-top: 200px;
-    padding-bottom: 200px;
-    margin-bottom: 94px;
+    padding-bottom: 272px;
     text-align: center;
     
 }
@@ -231,21 +230,19 @@ body {
     display: flex;
 }
 
-.list.work > li + li {
-    margin-left: 10px;
+.list.work > li + li{
+    margin-left: 30px;
 }
 
 .section-work {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-
 .section-work h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 94px;
-
-
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 50px;
 }
 
  .section-work .section-title {
@@ -253,13 +250,12 @@ body {
  
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
-
-    
+    text-align: center;   
 }
 
 /* team */
 .section-team {
+    padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;;
 }
@@ -275,9 +271,7 @@ body {
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 50px;
-    padding-top: 94px;
+    margin-bottom: 50px;
 
     color: var(--title-text-color);
 
@@ -311,33 +305,24 @@ body {
 
 /* footer */
 
-.container.footer {
+.footer {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 58px;
+    padding-bottom: 62px;
 }
 
-.container .logo {
-    margin-bottom: 20px;
-    }
+   
 
 .logo .studio { 
-    margin-bottom: 20px;
     color: #FFFFFF;
     
 }
 
-.container.footer .nav {
-    margin-bottom: 9px
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .nav {
+    margin-top: 20px;
+    margin-bottom: 9px;
+
     color: #FFFFFF;
 
     font-style: normal;
@@ -364,19 +349,40 @@ a[href="mailto:info@devstudio.com"] {
     margin-bottom: 9px;
 }
 
-
-
 /* portfolio */
+
+.main {
+    padding-top: 113px;
+    padding-bottom: 75px;
+}
 
 .box {
     display: flex;
     justify-content: center;
-    padding-top: 113px;
-    padding-bottom: 34px;
+    margin-bottom: 34px;
+}
+.btn.one {
+    width: 73px;
+}
+
+.btn.two {
+    width: 128px;
+}
+
+.btn.tree {
+    width: 145px;
+}
+
+.btn.four {
+    width: 103px;
+}
+
+.btn.fife {
+    width: 130px;
 }
 
 .box button {
-    min-width: 73px;
+    height: 38px;
     border-radius: 4px;
     border: 1px solid #F5F4FA;    
 }
@@ -407,11 +413,11 @@ a[href="mailto:info@devstudio.com"] {
 .portfolio.list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 75px;
 }
 
 .element {
     width: 370px;
+    border: 1px solid #EEEEEE;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -431,7 +437,7 @@ a[href="mailto:info@devstudio.com"] {
 
 .portfolio .text {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 4px;
 
     color: var(--title-text-color);
 
@@ -440,11 +446,17 @@ a[href="mailto:info@devstudio.com"] {
     letter-spacing: 0.06em;
 }
 
-.portfolio span {
+.portfolio .items {
+    padding: 20px 24px;
+}
+
+.portfolio p {
+    margin-top: 0;
+    margin-bottom: 20px;
+
     color: var(--primery-text-color);
     
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
-
